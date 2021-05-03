@@ -1,0 +1,7 @@
+# BEGIN WordPress
+RewriteEngine On
+RewriteBase /
+RewriteCond %{THE_REQUEST} public/([ˆ\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+RewriteRule ^((?!public/).*)$ miniprojetophpmvc/public/$1 [L,NC]
+# END WordPress

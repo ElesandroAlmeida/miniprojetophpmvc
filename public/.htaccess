@@ -1,0 +1,10 @@
+# BEGIN WordPress
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#uncoment this line on server
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ˆ/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+Options -Indexes

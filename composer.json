@@ -1,0 +1,15 @@
+{
+    "name": "datacubo/miniprojetophpmvc",
+    "authors": [
+        {
+            "name": "Sandro Almeida",
+            "email": "elesandro.almeida@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\":"app/"
+        }
+    }
+}
